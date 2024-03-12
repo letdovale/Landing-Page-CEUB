@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C9DDFF; 
+    color: #000; 
+}
+
+header {
+    background-color: #DE6C83; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.logo {
+    width: 55px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #ECB0E1; 
+}
+
+section {
+    padding: 50px;
+}
+
+
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.servico {
+    background-color: #ECB0E1; 
+    padding: 20px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.servico:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-produto {
+    width: 200px; 
+    height: 300px; 
+}
+
+.imagem-produto:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produto {
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.equipe-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.equipe-member img {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    background-color: #C1AAC0; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #DE6C83; 
+}
